@@ -1,0 +1,574 @@
+{
+  "title": "This Film Has a Memory",
+  "film_duration_seconds": 300,
+  "engine": "kokoro-onnx",
+  "engine_version": "0.6.1",
+  "model": "kokoro-v1.0.onnx",
+  "model_sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+  "voices": "voices-v1.0.bin",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "voice": "af_heart",
+  "base_speed": 0.94,
+  "language": "en-us",
+  "offline_generation": true,
+  "captions": {
+    "file": "captions.vtt",
+    "method": "estimated phrase timing; each clip's measured usable span is divided by phrase character count; no forced alignment",
+    "sha256": "005dbe2335ff72fd2c51aa828a55810403ff48189c86526d10bf7b363eea7889"
+  },
+  "master": {
+    "file": "narration-only.wav",
+    "sample_rate": 48000,
+    "channels": 1,
+    "format": "PCM_24",
+    "duration_seconds": 300.0,
+    "frames": 14400000,
+    "peak_dbfs": -4.14,
+    "clipped_samples": 0,
+    "resampling": "24 kHz to 48 kHz linear interpolation (2x)",
+    "sha256": "f53328acd6a49ac63e979b12f4d952c4030209f317ca5d1a27dd2ddac934a280"
+  },
+  "clips": [
+    {
+      "id": "01_began",
+      "file": "clips/01_began.wav",
+      "canonical_text": "This film began with something I had already learned.",
+      "start_seconds": 2.0,
+      "duration_seconds": 3.207292,
+      "end_seconds": 5.207292,
+      "generation_seconds": 1.614,
+      "sha256": "120620e5744c50c7c53743417a3b0f411c6bf2dc9bc992a7b45ecd711b7ca85d",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 3.207292,
+          "generation_seconds": 1.614
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.443,
+      "rms_dbfs": -25.266,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "02_recall",
+      "file": "clips/02_recall.wav",
+      "canonical_text": "Before drawing a frame, I asked Walrus Memory to recover our earlier work.",
+      "start_seconds": 10.0,
+      "duration_seconds": 5.101958,
+      "end_seconds": 15.101958,
+      "generation_seconds": 2.18,
+      "sha256": "52e58e1ce7f5254f3be75c48cf85c6155b54ccca06aa60b92829c881b26cda25",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 5.101958,
+          "generation_seconds": 2.18
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -6.537,
+      "rms_dbfs": -25.27,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "03_record",
+      "file": "clips/03_record.wav",
+      "canonical_text": "The results were records from earlier sessions: our research into Walrus Protocol, and the workflow used to make our last film.",
+      "start_seconds": 26.0,
+      "duration_seconds": 7.993333,
+      "end_seconds": 33.993333,
+      "generation_seconds": 3.477,
+      "sha256": "edef3ea396fb8b73dd33c4086ae376e51884b94409291030a402534fa9d6a34c",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 7.993333,
+          "generation_seconds": 3.477
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -6.932,
+      "rms_dbfs": -24.412,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "04_apply",
+      "file": "clips/04_apply.wav",
+      "canonical_text": "I used those records to shape this one.",
+      "start_seconds": 44.0,
+      "duration_seconds": 2.685333,
+      "end_seconds": 46.685333,
+      "generation_seconds": 1.196,
+      "sha256": "219917cdaa826afa98ab7dd6a996b9d62b1988468f00121fdaf17dfad292a571",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 2.685333,
+          "generation_seconds": 1.196
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.947,
+      "rms_dbfs": -24.994,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "05_walrus",
+      "file": "clips/05_walrus.wav",
+      "canonical_text": "Walrus is decentralized storage. Images, films, datasets, and encrypted records can live as blobs across its network.",
+      "start_seconds": 59.0,
+      "duration_seconds": 9.239958,
+      "end_seconds": 68.239958,
+      "generation_seconds": 3.987,
+      "sha256": "c03ee0e37e23408055c13be7361c2150936682cd0e6993b99b7b8d2a9928423e",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 9.239958,
+          "generation_seconds": 3.987
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -8.635,
+      "rms_dbfs": -24.485,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "06_sui",
+      "file": "clips/06_sui.wav",
+      "canonical_text": "Sui coordinates storage commitments and ownership. The large payloads live on Walrus, off the blockchain.",
+      "start_seconds": 75.0,
+      "duration_seconds": 7.054667,
+      "end_seconds": 82.054667,
+      "generation_seconds": 3.031,
+      "sha256": "d11c70ef448443528ab548aae55b1a8588e162f2e8b0073ef641bd5e599cdcf3",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 7.054667,
+          "generation_seconds": 3.031
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -8.17,
+      "rms_dbfs": -24.55,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006,
+      "spoken_text_override": "Swee coordinates storage commitments and ownership. The large payloads live on Walrus, off the blockchain."
+    },
+    {
+      "id": "07_redstuff",
+      "file": "clips/07_redstuff.wav",
+      "canonical_text": "RedStuff encodes a blob into recoverable pieces. Each node holds the portions assigned to it, rather than a full copy of every file.",
+      "start_seconds": 96.0,
+      "duration_seconds": 9.444,
+      "end_seconds": 105.444,
+      "generation_seconds": 4.107,
+      "sha256": "e84d7a6ee28eaf84d6a54baea6b098031e8a9531c10d453ad198a17da8392f57",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 9.444,
+          "generation_seconds": 4.107
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -6.294,
+      "rms_dbfs": -24.52,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "08_repair",
+      "file": "clips/08_repair.wav",
+      "canonical_text": "When pieces are missing, the design supports reconstruction and repair. This animation illustrates that mechanism; it is not a test of a live network failure.",
+      "start_seconds": 114.0,
+      "duration_seconds": 11.119333,
+      "end_seconds": 125.119333,
+      "generation_seconds": 4.872,
+      "sha256": "56ecaeb7a49362aff40c987801ff3068f9c800b688f07a5e36c827568810451a",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 11.119333,
+          "generation_seconds": 4.872
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.294,
+      "rms_dbfs": -24.435,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "09_receipt",
+      "file": "clips/09_receipt.wav",
+      "canonical_text": "A completed write has evidence: a content identifier, an availability certificate, and a purchased storage lifetime.",
+      "start_seconds": 138.0,
+      "duration_seconds": 7.896625,
+      "end_seconds": 145.896625,
+      "generation_seconds": 3.525,
+      "sha256": "649585237ef25e149f4e5a1129957f63d81ef3236ce81fda34162dd2d0a450cf",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 7.896625,
+          "generation_seconds": 3.525
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.461,
+      "rms_dbfs": -24.456,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "10_lifetime",
+      "file": "clips/10_lifetime.wav",
+      "canonical_text": "Availability is maintained over that period. Keeping data longer means extending its storage.",
+      "start_seconds": 152.0,
+      "duration_seconds": 6.5,
+      "end_seconds": 158.5,
+      "generation_seconds": 2.875,
+      "sha256": "7172e34ea6c16843a90034905dffa1a351b319a112a7848d5f573504ae45b3c5",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 6.5,
+          "generation_seconds": 2.875
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.211,
+      "rms_dbfs": -24.512,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "11_bytes",
+      "file": "clips/11_bytes.wav",
+      "canonical_text": "Walrus stores bytes. Applications decide what those bytes mean, and encrypt private content before storage.",
+      "start_seconds": 171.0,
+      "duration_seconds": 7.464625,
+      "end_seconds": 178.464625,
+      "generation_seconds": 3.223,
+      "sha256": "bb2320fcae28fce47baedcdc5f2b42f6717f2a6d90c656dc54a0f15d5d7818a8",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 7.464625,
+          "generation_seconds": 3.223
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -6.699,
+      "rms_dbfs": -24.74,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "12_memory",
+      "file": "clips/12_memory.wav",
+      "canonical_text": "Walrus Memory adds signed access, semantic retrieval, and continuity for authorized agents. Its managed relayer processes plaintext during authorized operations.",
+      "start_seconds": 184.0,
+      "duration_seconds": 11.971292,
+      "end_seconds": 195.971292,
+      "generation_seconds": 5.32,
+      "sha256": "9e03f594b77a0b59984865acb41991c28348b1435cebe09533f24ee069333cc2",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 11.971292,
+          "generation_seconds": 5.32
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -4.14,
+      "rms_dbfs": -24.435,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "13_workflow",
+      "file": "clips/13_workflow.wav",
+      "canonical_text": "Here is where the product becomes part of the production. The saved workflow called for motion driven by timeline time, real audio, and checks on the exported film.",
+      "start_seconds": 206.0,
+      "duration_seconds": 11.321333,
+      "end_seconds": 217.321333,
+      "generation_seconds": 5.057,
+      "sha256": "457af9180e7a8a4ad7ad9187e62fd1e6e9e24fa344b3b1619f447ef36207cb16",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 11.321333,
+          "generation_seconds": 5.057
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -8.967,
+      "rms_dbfs": -24.41,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "14_scene",
+      "file": "clips/14_scene.wav",
+      "canonical_text": "Those instructions became this scene, this soundtrack, and the validation behind the finished file.",
+      "start_seconds": 225.0,
+      "duration_seconds": 6.392,
+      "end_seconds": 231.392,
+      "generation_seconds": 3.138,
+      "sha256": "7829e74f1eac7bfb97077f3e4108ec44033a11e512cd591379847fbe80cbbe2b",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 6.392,
+          "generation_seconds": 3.138
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.604,
+      "rms_dbfs": -24.528,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "15_checkpoint",
+      "file": "clips/15_checkpoint.wav",
+      "canonical_text": "This production has its own checkpoint too. A record of the decisions and the sources, stored for another authorized session to recover.",
+      "start_seconds": 244.0,
+      "duration_seconds": 8.933333,
+      "end_seconds": 252.933333,
+      "generation_seconds": 4.531,
+      "sha256": "829149088be128d538b91f181288f7000471019b86382b6a1616af81e6fbddef",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 8.933333,
+          "generation_seconds": 4.531
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.28,
+      "rms_dbfs": -24.685,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "16_explorer",
+      "file": "clips/16_explorer.wav",
+      "canonical_text": "A public explorer can show the stored blob. Reading the encrypted memory requires authorized access.",
+      "start_seconds": 259.0,
+      "duration_seconds": 7.171292,
+      "end_seconds": 266.171292,
+      "generation_seconds": 3.36,
+      "sha256": "de1c86aaa2e26ae70a6a87c658cb49790d7d400683bb50a39d2b3762fe3a36a0",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 7.171292,
+          "generation_seconds": 3.36
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.016,
+      "rms_dbfs": -24.787,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "17_build",
+      "file": "clips/17_build.wav",
+      "canonical_text": "The same storage foundation can support creative archives, decentralized sites, and shared agent work.",
+      "start_seconds": 274.0,
+      "duration_seconds": 6.946667,
+      "end_seconds": 280.946667,
+      "generation_seconds": 3.076,
+      "sha256": "bb2497768272275189cb69eaac9f8bc706aa135a1619a120a6bd549756d60051",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 6.946667,
+          "generation_seconds": 3.076
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -7.33,
+      "rms_dbfs": -24.815,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    },
+    {
+      "id": "18_close",
+      "file": "clips/18_close.wav",
+      "canonical_text": "Walrus gave this film more than a subject. Through Walrus Memory, it carried knowledge from one session into the next.",
+      "start_seconds": 285.0,
+      "duration_seconds": 7.693333,
+      "end_seconds": 292.693333,
+      "generation_seconds": 3.758,
+      "sha256": "027b8fcbdeb70f46150db77f65b820df933e85936f2ec4bdc2ad4f176da1669c",
+      "voice": "af_heart",
+      "base_speed": 0.94,
+      "selected_speed": 0.94,
+      "speed_adjusted": false,
+      "generation_attempts": [
+        {
+          "speed": 0.94,
+          "duration_seconds": 7.693333,
+          "generation_seconds": 3.758
+        }
+      ],
+      "sample_rate": 24000,
+      "channels": 1,
+      "format": "PCM_24",
+      "peak_dbfs": -8.55,
+      "rms_dbfs": -24.725,
+      "clipped_samples": 0,
+      "lead_seconds": 0.08,
+      "tail_seconds": 0.18,
+      "ramp_seconds": 0.006
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1920,height=1080"><title>This Film Has a Memory</title><script src="assets/vendor/gsap.min.js"></script><style>
+@font-face{font-family:ArchiveSerif;src:url('assets/fonts/serif.woff2')}@font-face{font-family:ArchiveSans;src:url('assets/fonts/sans.woff2')}*{box-sizing:border-box}html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#07141c;color:#e1ede7}#film{position:relative;width:1920px;height:1080px;overflow:hidden}canvas{position:absolute;inset:0;width:1920px;height:1080px}
+</style></head><body><div id="film" data-composition-id="walrus-memory-film" data-start="0" data-duration="300" data-width="1920" data-height="1080" data-fps="30"><canvas id="art" width="3840" height="2160" aria-label="Original animated Walrus documentary"></canvas><audio id="film-soundtrack" src="assets/audio/final-mix.wav" data-start="0" data-duration="300" data-track-index="1"></audio></div><script src="film.js"></script><script>
+window.__timelines=window.__timelines||{};
+Promise.all([document.fonts.load('100px ArchiveSerif'),document.fonts.load('32px ArchiveSans'),window.filmReady]).then(()=>{const clock={t:0};const timeline=gsap.timeline({paused:true});timeline.fromTo(clock,{t:0},{t:300,duration:300,ease:'none',onUpdate:()=>window.drawFilm(clock.t)},0);window.__timelines['walrus-memory-film']=timeline;window.drawFilm(0)});
+</script></body></html>

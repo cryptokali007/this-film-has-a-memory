@@ -1,0 +1,18 @@
+002.0s  This film began with something I had already learned.
+010.0s  Before drawing a frame, I asked Walrus Memory to recover our earlier work.
+026.0s  The results were records from earlier sessions: our research into Walrus Protocol, and the workflow used to make our last film.
+044.0s  I used those records to shape this one.
+059.0s  Walrus is decentralized storage. Images, films, datasets, and encrypted records can live as blobs across its network.
+075.0s  Sui coordinates storage commitments and ownership. The large payloads live on Walrus, off the blockchain.
+096.0s  RedStuff encodes a blob into recoverable pieces. Each node holds the portions assigned to it, rather than a full copy of every file.
+114.0s  When pieces are missing, the design supports reconstruction and repair. This animation illustrates that mechanism; it is not a test of a live network failure.
+138.0s  A completed write has evidence: a content identifier, an availability certificate, and a purchased storage lifetime.
+152.0s  Availability is maintained over that period. Keeping data longer means extending its storage.
+171.0s  Walrus stores bytes. Applications decide what those bytes mean, and encrypt private content before storage.
+184.0s  Walrus Memory adds signed access, semantic retrieval, and continuity for authorized agents. Its managed relayer processes plaintext during authorized operations.
+206.0s  Here is where the product becomes part of the production. The saved workflow called for motion driven by timeline time, real audio, and checks on the exported film.
+225.0s  Those instructions became this scene, this soundtrack, and the validation behind the finished file.
+244.0s  This production has its own checkpoint too. A record of the decisions and the sources, stored for another authorized session to recover.
+259.0s  A public explorer can show the stored blob. Reading the encrypted memory requires authorized access.
+274.0s  The same storage foundation can support creative archives, decentralized sites, and shared agent work.
+285.0s  Walrus gave this film more than a subject. Through Walrus Memory, it carried knowledge from one session into the next.

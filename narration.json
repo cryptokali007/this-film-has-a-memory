@@ -1,0 +1,26 @@
+{
+  "title": "This Film Has a Memory",
+  "duration": 300,
+  "voice": "af_heart",
+  "speed": 0.94,
+  "clips": [
+    {"id":"01_began","start":2,"text":"This film began with something I had already learned."},
+    {"id":"02_recall","start":10,"text":"Before drawing a frame, I asked Walrus Memory to recover our earlier work."},
+    {"id":"03_record","start":26,"text":"The results were records from earlier sessions: our research into Walrus Protocol, and the workflow used to make our last film."},
+    {"id":"04_apply","start":44,"text":"I used those records to shape this one."},
+    {"id":"05_walrus","start":59,"text":"Walrus is decentralized storage. Images, films, datasets, and encrypted records can live as blobs across its network."},
+    {"id":"06_sui","start":75,"text":"Sui coordinates storage commitments and ownership. The large payloads live on Walrus, off the blockchain.","spokenText":"Swee coordinates storage commitments and ownership. The large payloads live on Walrus, off the blockchain."},
+    {"id":"07_redstuff","start":96,"text":"RedStuff encodes a blob into recoverable pieces. Each node holds the portions assigned to it, rather than a full copy of every file."},
+    {"id":"08_repair","start":114,"text":"When pieces are missing, the design supports reconstruction and repair. This animation illustrates that mechanism; it is not a test of a live network failure."},
+    {"id":"09_receipt","start":138,"text":"A completed write has evidence: a content identifier, an availability certificate, and a purchased storage lifetime."},
+    {"id":"10_lifetime","start":152,"text":"Availability is maintained over that period. Keeping data longer means extending its storage."},
+    {"id":"11_bytes","start":171,"text":"Walrus stores bytes. Applications decide what those bytes mean, and encrypt private content before storage."},
+    {"id":"12_memory","start":184,"text":"Walrus Memory adds signed access, semantic retrieval, and continuity for authorized agents. Its managed relayer processes plaintext during authorized operations."},
+    {"id":"13_workflow","start":206,"text":"Here is where the product becomes part of the production. The saved workflow called for motion driven by timeline time, real audio, and checks on the exported film."},
+    {"id":"14_scene","start":225,"text":"Those instructions became this scene, this soundtrack, and the validation behind the finished file."},
+    {"id":"15_checkpoint","start":244,"text":"This production has its own checkpoint too. A record of the decisions and the sources, stored for another authorized session to recover."},
+    {"id":"16_explorer","start":259,"text":"A public explorer can show the stored blob. Reading the encrypted memory requires authorized access."},
+    {"id":"17_build","start":274,"text":"The same storage foundation can support creative archives, decentralized sites, and shared agent work."},
+    {"id":"18_close","start":285,"text":"Walrus gave this film more than a subject. Through Walrus Memory, it carried knowledge from one session into the next."}
+  ]
+}

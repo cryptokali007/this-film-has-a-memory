@@ -1,0 +1,12 @@
+# Attribution and provenance
+
+- Original film direction, screenplay, deterministic Canvas/HTML artwork and edit: Codex for WiseDegen, 2026-10-18 America/Los_Angeles. Procedural visual forms are original artwork, not official logos. No purchased stock or third-party artwork.
+- Original score: native Codex local score worker, integrated and mixed by parent. NumPy/SciPy synthesis; no borrowed melody or music model. Source is scripts/generate_score.py.
+- Synthetic narration: local Kokoro-82M v1.0 model, af_heart voice at0.94speed, kokoro-onnx0.6.1. Model is Apache-2.0; wrapper MIT. Original origins: https://huggingface.co/hexgrad/Kokoro-82M and https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.1 . Full hashes and exact timing are in assets/audio/voice-manifest.json and evidence/VOICE_REPORT.md. No hosted voice request.
+- Fonts: Cormorant Garamond and Manrope WOFF2, localized from the installed Fontsource packages; caption Manrope TTF from the original Google Fonts repository, with exact source/provenance in evidence/FONT-PROVENANCE.json. SIL Open Font License notices are in licenses/.
+- The accepted burned-caption render resolved its subtitle font to Windows ArialMT. Caption generation now names Arial explicitly for the same intended result. Arial's system font file is not redistributed; the supplied Manrope TTF remains available for editing.
+- Composition engine: HyperFrames0.8.173, https://github.com/heygen-com/hyperframes . Animation clock: GSAP3.15.0 under its free-use license, https://gsap.com/standard-license/ . Capture uses the installed Chrome Headless Shell; encoding uses existing full FFmpeg8. Binaries/dependencies/models are excluded from source packaging.
+- Walrus Protocol, Sui and Walrus Memory / MemWal: upstream Mysten ecosystem projects. Technical sources linked in README.md. Actual MemWal recall excerpts and a newly stored production checkpoint inform the film; editorial presentation does not claim a live UI recording.
+- Parent source checks were supported by completed report-only Antigravity and Jules reviews, both reviewed against scoped official evidence. Independent native preview and exported-still reviews passed. Exact IDs in PROJECT_STATUS.md.
+
+No public website/social deployment or MP4 upload was performed during production. The requested final MemWal checkpoint is a distinct memory operation documented after final acceptance.

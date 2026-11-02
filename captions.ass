@@ -1,0 +1,78 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,40,&H00EDF3ED,&H00EDF3ED,&H00141007,&H80141007,0,0,0,0,100,100,0,0,3,11,0,2,100,100,78,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:02.08,00:00:02.94,Default,,0,0,0,,This film began
+Dialogue: 0,00:00:02.94,00:00:04.10,Default,,0,0,0,,with something I had
+Dialogue: 0,00:00:04.10,00:00:05.02,Default,,0,0,0,,already learned.
+Dialogue: 0,00:00:10.08,00:00:11.62,Default,,0,0,0,,Before drawing a frame,
+Dialogue: 0,00:00:11.62,00:00:13.03,Default,,0,0,0,,I asked Walrus Memory
+Dialogue: 0,00:00:13.03,00:00:14.92,Default,,0,0,0,,to recover our earlier work.
+Dialogue: 0,00:00:26.08,00:00:27.57,Default,,0,0,0,,The results were records
+Dialogue: 0,00:00:27.57,00:00:28.94,Default,,0,0,0,,from earlier sessions:
+Dialogue: 0,00:00:28.94,00:00:31.06,Default,,0,0,0,,our research into Walrus Protocol,
+Dialogue: 0,00:00:31.06,00:00:33.81,Default,,0,0,0,,and the workflow used to make our last film.
+Dialogue: 0,00:00:44.08,00:00:45.35,Default,,0,0,0,,I used those records
+Dialogue: 0,00:00:45.35,00:00:46.50,Default,,0,0,0,,to shape this one.
+Dialogue: 0,00:00:59.08,00:01:01.60,Default,,0,0,0,,Walrus is decentralized storage.
+Dialogue: 0,00:01:01.60,00:01:03.49,Default,,0,0,0,,Images, films, datasets,
+Dialogue: 0,00:01:03.49,00:01:06.56,Default,,0,0,0,,and encrypted records can live as blobs
+Dialogue: 0,00:01:06.56,00:01:08.06,Default,,0,0,0,,across its network.
+Dialogue: 0,00:01:15.08,00:01:17.41,Default,,0,0,0,,Sui coordinates storage commitments
+Dialogue: 0,00:01:17.41,00:01:18.34,Default,,0,0,0,,and ownership.
+Dialogue: 0,00:01:18.34,00:01:20.60,Default,,0,0,0,,The large payloads live on Walrus,
+Dialogue: 0,00:01:20.60,00:01:21.87,Default,,0,0,0,,off the blockchain.
+Dialogue: 0,00:01:36.08,00:01:37.71,Default,,0,0,0,,RedStuff encodes a blob
+Dialogue: 0,00:01:37.71,00:01:39.42,Default,,0,0,0,,into recoverable pieces.
+Dialogue: 0,00:01:39.42,00:01:42.55,Default,,0,0,0,,Each node holds the portions assigned to it,
+Dialogue: 0,00:01:42.55,00:01:45.26,Default,,0,0,0,,rather than a full copy of every file.
+Dialogue: 0,00:01:54.08,00:01:55.76,Default,,0,0,0,,When pieces are missing,
+Dialogue: 0,00:01:55.76,00:01:58.98,Default,,0,0,0,,the design supports reconstruction and repair.
+Dialogue: 0,00:01:58.98,00:02:01.92,Default,,0,0,0,,This animation illustrates that mechanism;
+Dialogue: 0,00:02:01.92,00:02:04.93,Default,,0,0,0,,it is not a test of a live network failure.
+Dialogue: 0,00:02:18.08,00:02:20.17,Default,,0,0,0,,A completed write has evidence:
+Dialogue: 0,00:02:20.17,00:02:21.59,Default,,0,0,0,,a content identifier,
+Dialogue: 0,00:02:21.59,00:02:23.48,Default,,0,0,0,,an availability certificate,
+Dialogue: 0,00:02:23.48,00:02:25.71,Default,,0,0,0,,and a purchased storage lifetime.
+Dialogue: 0,00:02:32.08,00:02:33.86,Default,,0,0,0,,Availability is maintained
+Dialogue: 0,00:02:33.86,00:02:35.02,Default,,0,0,0,,over that period.
+Dialogue: 0,00:02:35.02,00:02:38.32,Default,,0,0,0,,Keeping data longer means extending its storage.
+Dialogue: 0,00:02:51.08,00:02:52.45,Default,,0,0,0,,Walrus stores bytes.
+Dialogue: 0,00:02:52.45,00:02:55.33,Default,,0,0,0,,Applications decide what those bytes mean,
+Dialogue: 0,00:02:55.33,00:02:58.28,Default,,0,0,0,,and encrypt private content before storage.
+Dialogue: 0,00:03:04.08,00:03:06.54,Default,,0,0,0,,Walrus Memory adds signed access,
+Dialogue: 0,00:03:06.54,00:03:09.07,Default,,0,0,0,,semantic retrieval, and continuity
+Dialogue: 0,00:03:09.07,00:03:10.71,Default,,0,0,0,,for authorized agents.
+Dialogue: 0,00:03:10.71,00:03:13.62,Default,,0,0,0,,Its managed relayer processes plaintext
+Dialogue: 0,00:03:13.62,00:03:15.79,Default,,0,0,0,,during authorized operations.
+Dialogue: 0,00:03:26.08,00:03:27.80,Default,,0,0,0,,Here is where the product
+Dialogue: 0,00:03:27.80,00:03:29.95,Default,,0,0,0,,becomes part of the production.
+Dialogue: 0,00:03:29.95,00:03:32.44,Default,,0,0,0,,The saved workflow called for motion
+Dialogue: 0,00:03:32.44,00:03:34.92,Default,,0,0,0,,driven by timeline time, real audio,
+Dialogue: 0,00:03:34.92,00:03:37.14,Default,,0,0,0,,and checks on the exported film.
+Dialogue: 0,00:03:45.08,00:03:47.41,Default,,0,0,0,,Those instructions became this scene,
+Dialogue: 0,00:03:47.41,00:03:48.43,Default,,0,0,0,,this soundtrack,
+Dialogue: 0,00:03:48.43,00:03:51.21,Default,,0,0,0,,and the validation behind the finished file.
+Dialogue: 0,00:04:04.08,00:04:06.88,Default,,0,0,0,,This production has its own checkpoint too.
+Dialogue: 0,00:04:06.88,00:04:08.51,Default,,0,0,0,,A record of the decisions
+Dialogue: 0,00:04:08.51,00:04:09.55,Default,,0,0,0,,and the sources,
+Dialogue: 0,00:04:09.55,00:04:12.75,Default,,0,0,0,,stored for another authorized session to recover.
+Dialogue: 0,00:04:19.08,00:04:22.11,Default,,0,0,0,,A public explorer can show the stored blob.
+Dialogue: 0,00:04:22.11,00:04:24.08,Default,,0,0,0,,Reading the encrypted memory
+Dialogue: 0,00:04:24.08,00:04:25.99,Default,,0,0,0,,requires authorized access.
+Dialogue: 0,00:04:34.08,00:04:35.90,Default,,0,0,0,,The same storage foundation
+Dialogue: 0,00:04:35.90,00:04:37.93,Default,,0,0,0,,can support creative archives,
+Dialogue: 0,00:04:37.93,00:04:39.28,Default,,0,0,0,,decentralized sites,
+Dialogue: 0,00:04:39.28,00:04:40.76,Default,,0,0,0,,and shared agent work.
+Dialogue: 0,00:04:45.08,00:04:47.77,Default,,0,0,0,,Walrus gave this film more than a subject.
+Dialogue: 0,00:04:47.77,00:04:49.18,Default,,0,0,0,,Through Walrus Memory,
+Dialogue: 0,00:04:49.18,00:04:52.51,Default,,0,0,0,,it carried knowledge from one session into the next.
